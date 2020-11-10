@@ -5,9 +5,7 @@ const HOURHAND = document.querySelector("#hour");
 const MINUTEHAND = document.querySelector("#minute");
 const SECONDHAND = document.querySelector("#second");
 
-if(choice=="smooth") {
-
-
+if( choice == "smooth" ) {
 
   var date = new Date();
 
@@ -42,7 +40,7 @@ if(choice=="smooth") {
 
   var interval = setInterval(runTheClock, 1000);
 
-} else if(choice=="clasic") {
+} else if( choice=="clasic" ) {
 
   const HOURHAND = document.querySelector("#hour");
   const MINUTEHAND = document.querySelector("#minute");
